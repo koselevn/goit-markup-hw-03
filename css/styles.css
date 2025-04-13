@@ -131,6 +131,10 @@ button {
 
 /* Header */
 
+.header-logo-link{
+    margin-right: 76px;
+}
+
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
@@ -143,7 +147,6 @@ button {
 
 .header-nav{
     display: flex;
-    gap: 76px;
     align-items: center;
 }
 
@@ -239,6 +242,10 @@ button {
     padding-bottom: 120px;
 }
 
+.team-card {
+    border-radius: 0px 0px 4px 4px;
+}
+
 .team-title-text{
     margin-bottom: 72px;
     font-weight: 700;
@@ -303,6 +310,7 @@ button {
 
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .portfolio-list-title{
