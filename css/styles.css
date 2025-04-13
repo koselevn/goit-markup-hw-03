@@ -51,12 +51,31 @@ button {
 }
 
 .order-btn {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .order-btn:hover, 
@@ -112,6 +131,10 @@ button {
 
 /* Header */
 
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .header-container{
     display: flex;
     justify-content: space-between;
@@ -159,7 +182,7 @@ button {
 
 /* Title */
 
-.title-container{
+.title-section{
     padding-top: 188px;
     padding-bottom: 188px;
 }
@@ -178,12 +201,15 @@ button {
     letter-spacing: 0.02em;
 
     margin-bottom: 48px;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
 /* About  */
 
-.about-container{
+.about{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -208,7 +234,7 @@ button {
 
 /* Team */
 
-.team-container{
+.team-section{
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -224,16 +250,17 @@ button {
     justify-content: center;
 }
 
-.team-list-title {
-    margin-top: 32px;
+.team-item-cotent-div{
+    padding: 32px 0;
+    text-align: center;
+}
+
+.team-list-title {   
     margin-bottom: 8px;
-    text-align: center;    
 }
 
 .team-p {
-    margin-bottom: 32px;
     color: #434455;
-    text-align: center;
 }
 
 .team-card {
@@ -247,9 +274,16 @@ button {
 
 /* Portfolio */
 
-.portfolio-container{
+.portfolio{
     padding-top: 120px;
     padding-bottom: 120px;
+}
+
+.portfolio-container{
+
+}
+.portfolio-title-text {
+    margin-bottom: 72px;
 }
 
 .portfolio-list {
@@ -262,13 +296,13 @@ button {
 .portfolio-item{
     width: calc((100% - 24px * 2) / 3);
 
-    border: 1px solid #E7E9FC;
+
 }
 
 .portfolio-item-content-div{
-    padding-top: 32px;
-    padding-left: 16px;
-    padding-bottom: 32px;
+
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
 }
 
 .portfolio-list-title{
@@ -277,9 +311,18 @@ button {
 
 /* Footer */
 
-.footer-container{
+.footer {
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.footer-container{
+
+}
+
+.logo-link {
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer{
@@ -290,5 +333,4 @@ button {
     color: #F4F4FD;
     letter-spacing: 0.02em;
     width: 264px;
-    margin-top: 16px;
 }

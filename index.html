@@ -9,9 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
         integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.css"
-        integrity="sha512-gnAN+RgTMylunXI7AMg+PtcUGpKZFkZJoFIkAWvdPFRrFJz3p2tx4+9xbjILRfN7CzoViMgS8vSf06fSQzWZjA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/styles.css">
     <title>Web Studio</title>
 </head>
@@ -43,9 +40,9 @@
             </div>
         </section>
         <!-- about -->
-        <section>
+        <section class="about">
             <div class="container about-container">
-                <h2 class="about-title-text" hidden >About</h2>
+                <h2 class="about-title-text .visually-hidden" >About</h2>
                 <ul class="about-list">
                     <li class="about-list-item">
                         <h3 class="about-list-title">Strategy</h3>
@@ -74,29 +71,37 @@
                 <ul class="team-peopels-list">
                     <li class="team-card">
                         <img src="./images/mark.jpg" alt="Human Mark Guerrero" width="264">
-                        <h3 class="team-list-title">Mark Guerrero</h3>
-                        <p class="team-p">Product Designer</p>
+                        <div class="team-item-cotent-div">
+                            <h3 class="team-list-title">Mark Guerrero</h3>
+                            <p class="team-p">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-card">
                         <img src="./images/tom.jpg" alt="Human Tom Ford" width="264">
-                        <h3 class="team-list-title">Tom Ford</h3>
-                        <p class="team-p">Frontend Developer</p>
+                        <div class="team-item-cotent-div">
+                            <h3 class="team-list-title">Tom Ford</h3>
+                            <p class="team-p">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-card">
                         <img src="./images/camila.jpg" alt="Human Camila Garcia" width="264">
-                        <h3 class="team-list-title">Camila Garcia</h3>
-                        <p class="team-p">Marketing</p>
+                        <div class="team-item-cotent-div">
+                            <h3 class="team-list-title">Camila Garcia</h3>
+                            <p class="team-p">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-card">
                         <img src="./images/daniel.jpg" alt="Human Daniel Wilson" width="264">
-                        <h3 class="team-list-title">Daniel Wilson</h3>
-                        <p class="team-p">UI Designer</p>
+                        <div class="team-item-cotent-div">
+                            <h3 class="team-list-title">Daniel Wilson</h3>
+                            <p class="team-p">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
         </section>
         <!-- Portfolio -->
-        <section>
+        <section class="portfolio">
             <div class="container portfolio-container">
                 <h2 class="portfolio-title-text">Our Portfolio</h2>
                 <ul class="portfolio-list">
