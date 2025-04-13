@@ -1,0 +1,139 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    /* font-size: 16px; */
+    /* line-height: 1.5; */
+    /* font-weight: 400; */
+    background-color: #FFFFFF;
+    /* letter-spacing: 0.02em;
+    text-transform: capitalize */
+}
+
+a {
+text-decoration: none;
+}
+
+ul {
+list-style: none;
+}
+
+.order-btn {
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.order-btn:hover, 
+.order-btn:active,
+.order-btn:focus {
+    background-color: #404BBF;
+}
+
+.logo-link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: #2E2F42;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.logo-link-span{
+    color: #2e2f42;
+}
+
+.logo-link-span-footer{
+    color: #f4f4fd;
+}
+
+.header-contact {
+    color: #434455;
+}
+
+.header-nav-menu{
+    color: #2E2F42;
+    font-weight: 500;
+}
+
+.header-contact:hover,
+.header-contact:active,
+.header-contact:focus {
+    color: #404BBF;
+}
+
+.header-menu:first-child{
+    font-weight: 500;
+    color: #2E2F42;
+}
+
+.header-address {
+    font-style: normal;
+}
+
+.title-section{
+    background-color: #2E2F42;
+    text-align: center;
+    letter-spacing: 0.02em
+}
+
+.title-title-text{
+    font-size: 56px;
+    line-height: 1.07;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 0.02em
+}
+
+.about-p{
+    color: #434455;
+}
+
+.team-p {
+    color: #434455;
+}
+
+.team-card {
+    background-color: #FFFFFF;
+}
+
+.team-section{
+    background-color: #F4F4FD;
+    font-weight: 700;
+}
+
+.about-list-title,
+.team-list-title,
+.portfolio-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    
+}
+
+.about-title-text, 
+.team-title-text,
+.portfolio-title-text
+{
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    text-align: center;
+    color: #2e2f42;
+    letter-spacing: 0.02em
+}
+
+.footer{
+    background-color: #2E2F42;
+}
+
+.footer-p {
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
