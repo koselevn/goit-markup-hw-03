@@ -1,20 +1,53 @@
 body {
     font-family: "Roboto", sans-serif;
     color: #434455;
-    /* font-size: 16px; */
-    /* line-height: 1.5; */
-    /* font-weight: 400; */
     background-color: #FFFFFF;
-    /* letter-spacing: 0.02em;
-    text-transform: capitalize */
+
+    /* commmmmm !!!!! */
+    font-size: 16px; 
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
 a {
 text-decoration: none;
 }
 
-ul {
-list-style: none;
+ul,
+ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Base */
+
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .order-btn {
@@ -55,9 +88,53 @@ list-style: none;
     color: #434455;
 }
 
+.about-list-title,
+.team-list-title,
+.portfolio-list-title {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+
+.about-title-text,
+.team-title-text,
+.portfolio-title-text {
+    font-size: 36px;
+    line-height: 1.11;
+    font-weight: 700;
+    text-align: center;
+    color: #2e2f42;
+    letter-spacing: 0.02em
+}
+
+/* Header */
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-nav{
+    display: flex;
+    gap: 76px;
+    align-items: center;
+}
+
+.header-links-list{
+    display: flex;
+    gap: 40px;
+}
+
 .header-nav-menu{
+    cursor: pointer;
+    display: flex;
     color: #2E2F42;
     font-weight: 500;
+    padding: 24px 0;
 }
 
 .header-contact:hover,
@@ -75,6 +152,18 @@ list-style: none;
     font-style: normal;
 }
 
+.header-address-list{
+    display: flex;
+    gap: 40px;
+}
+
+/* Title */
+
+.title-container{
+    padding-top: 188px;
+    padding-bottom: 188px;
+}
+
 .title-section{
     background-color: #2E2F42;
     text-align: center;
@@ -86,47 +175,111 @@ list-style: none;
     line-height: 1.07;
     font-weight: 700;
     color: #FFFFFF;
-    letter-spacing: 0.02em
+    letter-spacing: 0.02em;
+
+    margin-bottom: 48px;
+    
+}
+
+/* About  */
+
+.about-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.about-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.about-list-item{
+    width: calc((100% - 24px * 3) / 4);
+}
+
+.about-list-title{
+    margin-bottom: 8px;
 }
 
 .about-p{
     color: #434455;
 }
 
+/* Team */
+
+.team-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.team-title-text{
+    margin-bottom: 72px;
+    font-weight: 700;
+}
+
+.team-peopels-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.team-list-title {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    text-align: center;    
+}
+
 .team-p {
+    margin-bottom: 32px;
     color: #434455;
+    text-align: center;
 }
 
 .team-card {
+    width: calc((100% - 24px * 3) / 4);
     background-color: #FFFFFF;
 }
 
 .team-section{
     background-color: #F4F4FD;
-    font-weight: 700;
 }
 
-.about-list-title,
-.team-list-title,
-.portfolio-list-title {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    
+/* Portfolio */
+
+.portfolio-container{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.about-title-text, 
-.team-title-text,
-.portfolio-title-text
-{
-    font-size: 36px;
-    line-height: 1.11;
-    font-weight: 700;
-    text-align: center;
-    color: #2e2f42;
-    letter-spacing: 0.02em
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px;
+}
+
+.portfolio-item{
+    width: calc((100% - 24px * 2) / 3);
+
+    border: 1px solid #E7E9FC;
+}
+
+.portfolio-item-content-div{
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-bottom: 32px;
+}
+
+.portfolio-list-title{
+    margin-bottom: 8px;
+}
+
+/* Footer */
+
+.footer-container{
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer{
@@ -136,4 +289,6 @@ list-style: none;
 .footer-p {
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    width: 264px;
+    margin-top: 16px;
 }
